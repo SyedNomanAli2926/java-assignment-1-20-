@@ -907,3 +907,123 @@
 // document.write("<br>",devices[0]);
 
 //END
+
+//now loop assignment
+
+//1. Declare and initialize an empty multidimensional array. (Array of arrays)
+// var arr =[[],[],[],[]];
+
+//2.Declare and initialize a multidimensional array representing the following matrix:
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(arr[0].join(" "));
+// document.write("<br>",arr[1].join(" "));
+// document.write("<br>",arr[2].join(" "));
+
+
+// //3. Write a program to print numeric counting from 1 to 10.
+// for (i=1; i<=10; i++){
+//     document.write("<br>",i)
+// }
+
+//  var num1 =+prompt("enter a number to show its multiplication table");5
+//  var num2 =+prompt("enter length multiplication");
+
+//  for(i=1; i<=10; i++){
+//      document.write(num1,"x",i,"=",(num1*i),"<br>")
+//  }
+
+
+//4. Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user.
+
+// var num1= +prompt();
+// var num2 = +prompt();
+
+// document.write("multiplication Table of ",num1,"<br>","Length ",num2,"<br>","<br>")
+
+// for(i=1; i<=num2; i++){    
+//     document.write(num1,"x",i,"=",(num1*i),"<br>")
+// }
+
+
+
+//5. Write a program to print items of the following array using for loop: fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]
+
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+
+//  document.write(fruits[0]);
+//  document.write("<br>",fruits[1]);
+//  document.write("<br>",fruits[2]);
+//  document.write("<br>",fruits[3]);
+//  document.write("<br>",fruits[4],"<br>");
+
+// for(i=0; i<=4; i++){
+//     document.write("<br>","Element at index ",i," is ",fruits[i])
+// }
+
+//6. Generate the following series in your browser. See example output.
+//for(i=1 ; i<=15 ; i++){
+    //   document.write("counting: "+ i ,"<br>")
+    // }
+    // for(i=10 ; i<=1 ; i--){
+        //   document.write("reverse counting: "+ i ,"<br>")
+    // }
+    // for(i=0 ; i<=20 ; i++){
+    //   if(i%2 == 0){
+    //     document.write("Even: "+ i ,"<br>")
+    //   }
+    // }
+    // for(i=1 ; i<=20 ; i++){
+    //   if(i%2 !=0){
+    //     document.write("Odd: "+ i ,"<br>")
+    //   }
+    // }
+    // for(i=1 ; i<=20 ; i++){
+    //  if(i%2 == 0){
+    //   document.write("Series: "+ i,"K" ,"<br>")
+    //  }
+    // }
+
+// 7:You have an array A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”] Write a program to enable “search by user input” in an array.
+// var items = ["cake", "apple pie", "cookie" , "chips", "patties"];
+// var search = prompt("what do you want to order?");
+// var isMatch = false;
+// for(var i = 0; i < items.length; i++){
+//     if(search === items[i]){
+//         isMatch = true;
+//         alert(items[i] + " is available at index " + i + " in the bakery");
+//         break;
+//     } 
+      
+// } if(isMatch === false){
+//     alert("we arev sorry this item is not available in bakery");
+// }
+
+//8. Write a program to identify the largest number in the given array. A = [24, 53, 78, 91, 12].
+//var A = [24, 53, 78, 91, 12];
+// var largest = 0;
+// for(var i = 0; i <= largest; i++){
+//     if(A[i] > largest){
+//         largest = A[i];
+//     }
+// }
+// document.write(largest)
+
+
+//9. Write a program to identify the smallest number in the given array. A = [24, 53, 78, 91, 12]
+// var A = [24, 53, 78, 91];
+// var smallest = 0;
+// for(var i = 0; i >= smallest; i++){
+//     if(A[i] > smallest){
+//         smallest = A[i];
+//     }
+// }
+// document.write(smallest);
+
+//10.Write a program to print multiples of 5 ranging 1 to 100.
+// var num = 5;
+// for(var i = 1; i < 100; i++){
+//     if(num * i <=100){
+//         document.write(num * i + ", ")
+//     }
+//   }
+//<---------------------THE END------------------>
